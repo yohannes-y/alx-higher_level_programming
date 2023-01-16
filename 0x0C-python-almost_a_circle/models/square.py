@@ -51,4 +51,3 @@ class Square(Rectangle):
         for index in ["id", "size", "x", "y"]:
             dictionary[index] = getattr(self, index)
         return dictionary
-

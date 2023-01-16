@@ -83,4 +83,3 @@ class Base:
                 turtle.left(90)
             turtle.penup()
         turtle.exitonclick()
-

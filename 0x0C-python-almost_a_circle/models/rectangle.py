@@ -112,4 +112,3 @@ class Rectangle(Base):
         for index in ["id", "width", "height", "x", "y"]:
             dictionary[index] = getattr(self, index)
         return dictionary
-
